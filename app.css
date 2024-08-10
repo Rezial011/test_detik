@@ -1,0 +1,85 @@
+#logo {
+    width: 10rem;
+    height: auto;
+    position: absolute;
+    top: 32px;
+    left: 157px;
+}
+
+#logo2 {
+    width: 10rem;
+    height: auto;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+#search {
+    left: 32px;
+}
+
+#an {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 5%;
+}
+
+#all {
+    background-color: rgba(32, 68, 153, 0.1);
+    margin: 10px 9px;
+    padding: 15px 30px;
+    height: max-content;
+    border-radius: 17px;
+}
+
+#input {
+    height: 3rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#an2 {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#tombol {
+    background-color: #204499;
+    border: 2px solid;
+    border-color: #204499;
+    font-weight: bold;
+}
+
+#tombol2 {
+    border: 2px solid;
+    border-color: #204499;
+    font-weight: bold;
+    color: #204499;
+}
+
+#tombol2:hover {
+    color: white;
+    background-color: #204499;
+}
+
+#burger {
+    border: none;
+    margin-right: 10rem;
+}
+
+@media(max-width : 601px) {
+    #logo {
+        width: 10rem;
+        height: auto;
+        position: absolute;
+        top: 23px;
+        left: 157px;
+    }   
+}
