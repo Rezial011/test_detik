@@ -1,9 +1,9 @@
 #logo {
-    width: 10rem;
+    width: 6rem;
     height: auto;
     position: absolute;
-    top: 32px;
-    left: 157px;
+    top: 21px;
+    left: 80px;
 }
 
 #logo2 {
@@ -12,11 +12,11 @@
 }
 
 body {
-    background-color: white;
+    background-color: #f3f3f3;
 }
 
 header {
-   background-color: rgba(255, 255, 255, 0.8);
+    background-color: (255, 255, 255, 0.8);
 }
 
 #search {
@@ -64,22 +64,474 @@ header {
     color: #204499;
 }
 
-#tombol2:hover {
+#tombol2:hover,
+#tombol7:hover {
     color: white;
     background-color: #204499;
 }
 
 #burger {
     border: none;
-    margin-right: 10rem;
+    margin-right: 9rem;
 }
 
-@media(max-width : 601px) {
+
+
+@media (min-width : 408px) {
+    #logo {
+        width: 6rem;
+        height: auto;
+        position: absolute;
+        top: 31px;
+        left: 80px;
+    }
+}
+
+@media (min-width : 576px) {
+    #logo {
+        width: 6rem;
+        height: auto;
+        position: absolute;
+        top: 31px;
+        left: 122px;
+    }
+}
+
+@media (min-width : 602px) {
     #logo {
         width: 10rem;
         height: auto;
         position: absolute;
-        top: 23px;
-        left: 157px;
-    }   
+        top: 32px;
+        left: 150px;
+    }
+}
+
+/* navbar end */
+
+#karo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 80px;
+    padding-top: 150px;
+}
+
+#karo div {
+
+    border-radius: 30px;
+}
+
+#gambar {
+    background-size: cover;
+    background-position: center;
+}
+
+#tombol3 {
+    background-color: #204499;
+    border: 2px solid;
+    border-color: #204499;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 9px 45px;
+}
+
+#p1 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #204499;
+    margin: 19px 0 0 0;
+}
+
+#p2 {
+    font-size: 21px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 0 19px 0;
+}
+
+@media(max-width : 740px) {
+    #p1 {
+        font-size: larger;
+    }
+
+    #p2 {
+        font-size: small;
+    }
+
+    #tombol {
+        font-size: smaller;
+    }
+}
+
+/* karo end */
+
+#tombol4 {
+    background-color: #204499;
+    border: 2px solid;
+    border-color: #204499;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 25px;
+}
+
+#p3 {
+    color: #204499;
+    font-weight: bold;
+}
+
+#p4 {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+}
+
+#karo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: ; */
+}
+
+#karo2inner {
+    border-radius: 19px;
+}
+
+/* karo2 end */
+
+#kategori {
+    background-color: white;
+    border-radius: 100px;
+}
+
+#bagian1 {
+    padding: 3rem 5rem 3rem 5rem;
+}
+
+#konten {
+    width: 290px;
+    height: auto;
+    border-radius: 19px;
+}
+
+#headline {
+    font-size: 35px;
+    font-weight: bold;
+    color: #204499;
+    margin: 0;
+}
+
+#kap {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 0 50px 0;
+}
+
+#karosel {
+    display: flex;
+    width: max-content;
+    gap: 23px;
+}
+
+#konten {
+    border-radius: 10px;
+}
+
+#roll {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#roll::-webkit-scrollbar {
+    display: none;
+}
+
+#bagian2 {
+    background-color: #204499;
+    padding: 2rem 5rem 3rem 5rem;
+    background-image: url("image/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#karosel2 {
+    display: flex;
+    width: max-content;
+    gap: 23px;
+}
+
+#konten2 {
+    font-size: 18px;
+    border-radius: 15px;
+    width: 420px;
+    height: max-content;
+    padding: 48px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#roll2 {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+#roll2::-webkit-scrollbar {
+    display: none;
+}
+
+#tombol5 {
+    color: #204499;
+    background-color: white;
+    border: 2px solid;
+    font-weight: 650;
+    font-size: 22px;
+    padding: 4px 37px;
+    margin-bottom: 60px;
+}
+
+#p5 {
+    color: white;
+    font-size: 31px;
+    font-weight: 650;
+    margin: 0;
+}
+
+#p6 {
+    color: white;
+    font-size: 22px;
+    font-weight: 450;
+    margin: 0 0 0 0;
+}
+
+#nama {
+    font-size: 22px;
+    font-weight: 650;
+    color: #204499;
+}
+
+#bagian3 {
+    padding: 2rem 0 1rem 0;
+}
+
+#p7 {
+    color: #204499;
+    font-size: 32px;
+    font-weight: 650;
+    margin: 0;
+}
+
+#p8 {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    font-weight: 450;
+    margin: 0 0 1rem 0;
+}
+
+#tombol6 {
+    background-color: #204499;
+    border: 2px solid;
+    border-color: #204499;
+    font-weight: bold;
+    font-size: large;
+}
+
+#tombol7 {
+    border: 2px solid;
+    border-color: #204499;
+    font-weight: bold;
+    color: #204499;
+    font-size: large;
+}
+
+/* kategori end */
+
+#only {
+    display: grid;
+    place-items: center;
+}
+
+#only div {
+    background-color: white;
+    border-radius: 50px;
+    padding-bottom: 2rem;
+}
+
+#num {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #204499;
+}
+
+#numkap {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: start;
+}
+
+#numparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#headline2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #204499;
+    margin-bottom: 3rem;
+}
+
+/* only end */
+
+#yt {
+    background-color: white;
+}
+
+#vid {
+    background-color: darkgrey;
+    border-radius: 18px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 27px;
+}
+
+#headline3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #204499;
+    /* margin-bottom: 3rem; */
+}
+
+#kap2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    /* margin: 0 0 50px 0; */
+}
+
+/* yt end */
+
+#drop {
+    font-size: 17px;
+    font-weight: 490;
+    color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: start;
+    border: none;
+    background-color: transparent;
+}
+
+#down {
+    font-size: 17px;
+    font-weight: 490;
+    color: rgba(0, 0, 0, 0.6);
+    border: none;
+    background-color: transparent;
+}
+
+#dropparent {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#arrow {
+    width: auto;
+    height: 25px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    color: rgba(0, 0, 0, 0.137);
+}
+
+#headline4 {
+    font-size: 30px;
+    font-weight: 715;
+    color: #204499;
+    text-align: center;
+}
+
+/* dropdown end */
+
+#logofoot {
+    width: 14rem;
+    height: auto;
+}
+
+
+footer {
+    background-color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #204499;
+    margin: 0 1rem;
+}
+
+#sosmed img {
+    width: 1.5rem;
+    height: auto;
+}
+
+#sosmed2 img {
+    width: 2.2rem;
+    height: auto;
+}
+
+@media(max-width : 601px) {
+
+    *,#p3,#p7,#nama, #p5,
+    #headline,
+    #headline2,
+    #headline3,
+    #headline4 {
+        font-size: 22px;
+    }
+
+    #p1 {
+        font-size: 19px;
+    }
+
+    #tombol3,
+    #tombol4,
+    #tombol5,
+    #tombol6,
+    #tombol7 {
+        font-size: 15px;
+    }
+
+    #num {
+        font-size: xx-large;
+    }
+
+    *,#p2
+    #p4,
+    #kap,
+    #konten2,
+    #p6,
+    #p8,
+    #numkap,
+    #drop,
+    #down {
+        font-size: small;
+    }
 }

@@ -8,20 +8,22 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
   <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 px-5 shadow p-2 mb-5 bg-body-tertiary rounded">
-      <div class="container-fluid px-5">
-        <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-3 px-5 shadow p-2 mb-5 rounded">
+      <div class="container-fluid px-0 px-sm-5">
+        <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-          
+
         </button>
         <a class="d-inline d-lg-none" href="#">
-          <img id="logo"  src="image/logo.png" alt="">
+          <img id="logo" src="image/logo.png" alt="">
         </a>
         <a class="d-none d-lg-inline navbar-brand" href="#">
           <img id="logo2" src="image/logo.png" alt="">
@@ -42,9 +44,10 @@
                 <img src="image/search-form.svg" alt="">
               </span>
             </label>
-            <input id="input" class="form-control me-2 mx-2 rounded-pill" type="search" placeholder="         Cari Course" aria-label="Search">
+            <input id="input" class="form-control me-2 mx-2 rounded-pill" type="search"
+              placeholder="         Cari Course" aria-label="Search">
           </form>
-          
+
           <p class="d-lg-none" id="all"><a id="an2" class="d-inline" href="#">All Course</a></p>
         </div>
 
@@ -59,7 +62,386 @@
     </nav>
   </header>
 
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+  <section id="karo">
+    <div class="px-5">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/learning-with-bestie-min.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/learning-with-bestie-min.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="p1">Upgrade Dirimu, Upgrade Karirmu! 🚀</div>
+    <div id="p2">Belajar bersama detikcom kapan pun dan dimana pun!</div>
+    <button id="tombol3" class="btn btn-primary rounded-4 mb-5 mt-2" type="button">Mulai Belajar Sekarang!</button>
+  </section>
+
+  <section class="container py-5">
+    <div id="karo2" class="row">
+      <!-- Div pertama -->
+      <div class="col-md-5">
+        <div class="p-4 text-white rounded">
+          <h3 id="p3">Kelas Terbaru</h3>
+          <p id="p4">Temukan ilmu baru dengan berbagai judul kelas terbaru di detikLearning!</p>
+          <button id="tombol4" class="btn btn-primary mt-2 rounded-4">Lihat Semua</button>
+        </div>
+      </div>
+
+      <!-- Div kedua -->
+      <div class="col-md-7">
+        <div id="carouselExampleIndicators" class="carousel slide p-4 text-white rounded" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div id="karo2inner" class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image/seo-writing.jpg" class="d-block w-100" alt="Gambar 2">
+            </div>
+            <div class="carousel-item">
+              <img src="image/potret-jutnalistik.jpg" class="d-block w-100" alt="Gambar 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kategori">
+    <div id="bagian1" class="text-center">
+      <p id="headline">Berbagai Macam Kategori</p>
+      <p id="kap">Eksplor berbagai kelas inspiratif di setiap kategori</p>
+
+      <div id="roll">
+        <div id="karosel">
+          <div id="konten">
+            <img src="image/business.png" alt="">
+          </div>
+          <div id="konten">
+            <img src="image/content.png" alt="">
+          </div>
+          <div id="konten">
+            <img src="image/corporate.png" alt="">
+          </div>
+          <div id="konten">
+            <img src="image/product.png" alt="">
+          </div>
+          <div id="konten">
+            <img src="image/self-development.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bagian2" class="row align-items-md-center">
+      <div class="col col-lg-4">
+        <p id="p5">Apa Kata Mereka?</p>
+        <P id="p6">Mari lihat ulasan dan pendapat #anakdetik tentang pembelajaran di detikLearning</P>
+        <button id="tombol5" class="btn btn-primary mt-4 rounded-4">Baca Semua</button>
+      </div>
+
+      <div class="col col-lg-8">
+        <div id="roll2">
+          <div id="karosel2">
+            <div id="konten2">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae labore error, architecto dolores
+                tenetur nesciunt soluta blanditiis. Laudantium placeat, ab iure praesentium sequi, ratione veniam nemo
+                blanditiis, labore nobis incidunt.
+                Numquam odit adipisci ullam molestias. Esse molestias culpa porro aspernatur omnis qui quae non sit
+                pariatur, repellat iusto. Vero ipsa excepturi deleniti, molestias et nesciunt quasi iste aspernatur
+                mollitia fugit?</p>
+              <hr>
+              <p id="nama">Jhon Doe | Front-End Designer | detikcom</p>
+            </div>
+            <div id="konten2">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque impedit.obcaecati error
+                facere nobis sint rem officia ad aut dolor aliquam quam alias nostrum aliquam quam alias nostrum
+                provident quaerat veritatis fugit eveniet.</p>
+              <hr>
+              <p id="nama">Jhon Doe | Front-End Designer | detikcom</p>
+            </div>
+            <div id="konten2">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque impedit, obcaecati
+                error facere nobis sint rem officia ad aut dolor aliquam quam alias nostrum provident quaerat veritatis
+                fugit eveniet?</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. am necessitatibus amet molestias perferendis
+                pariatur modi doloremque voluptatum possimus eligendi minima.</p>
+              <hr>
+              <p id="nama">Jhon Doe | Front-End Designer | detikcom</p>
+            </div>
+            <div id="konten2">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur doloremque impedit, obcaecati
+                error facere nobis sint rem officia ad aut dolor aliquam quam alias nostrum provident quaerat veritatis
+                fugit eveniet?</p>
+              <hr>
+              <p id="nama">Jhon Doe | Front-End Designer | detikcom</p>
+            </div>
+            <div id="konten2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ab id ad reiciendis aspernatur quo
+                doloribus iste! Quam, saepe voluptatem est, dolorum id unde, iure dolor maiores tempora maxime beatae.
+                Fuga, libero. Dicta quae nam quam quaerat ipsam enim quibusdam amet reprehenderit blanditiis id ad
+                tempora incidunt qui.</p>
+              <hr>
+              <p id="nama">Jhon Doe | Front-End Designer | detikcom</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div id="bagian3" class="row">
+        <div class="col-lg-5 text-center text-lg-start">
+          <p id="p7">Cek Kredensial 🕵️</p>
+          <p id="p8">Verifikasi nomor sertifikat kamu di sini!</p>
+        </div>
+
+        <div id="tombol67" class="col-lg-5 ms-auto ">
+          <button id="tombol7" class="btn btn-outline-primary rounded-3 py-2 px-4 mx-1 my-1">Lihat Caranya</button>
+          <button id="tombol6" class="btn btn-primary rounded-3 py-2 px-4 mx-1 my-1">Coba Verifikasi</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="only">
+    <div class="container text-center my-5 mx-3 p-5">
+      <p id="headline2">Only for detikcom</p>
+
+      <div class="row justify-content-md-center">
+        <div id="numparent" class="col col-lg-2 mb-0 mx-0 mx-md-5">
+          <p id="num" class="m-0">1000+</p>
+          <span id="numkap">Employees <br> Learners </span>
+        </div>
+        <div id="numparent" class="col-md-auto mb-0 mx-0 mx-md-5">
+          <p id="num" class="m-0">40+</p>
+          <span id="numkap">Amazing <br> Classes </span>
+        </div>
+        <div id="numparent" class="col col-lg-2 mb-0 mx-0 mx-md-5">
+          <p id="num" class="m-0">160+</p>
+          <span id="numkap">Amazing <br> Videos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="yt" class="p-5">
+    <div class="row p-5">
+      <div class="col-lg-6">
+        <div class="p-3 image-container">
+          <img src="image/fix foto dan jutnalistik (1).png" alt="Placeholder Image">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-3">
+          <p id="headline3">Get To Know: detikLearning 💡</p>
+          <p>detikLearning adalah platform Learning Management System (LMS) yang disediakan oleh detikcom sebagai sarana
+            untuk pembelajaran dan pengembangan diri #anakdetik, karyawan detikcom. Platform ini memungkinkan karyawan
+            untuk mengakses beragam video pembelajaran dari instruktur yang berpengalaman di bidangnya, dengan
+            ketersediaan akses di mana saja dan kapan saja. Melalui detikLearning, detikcom memberikan fasilitas yang
+            memungkinkan karyawan menjalani proses pembelajaran yang fleksibel, mendalam, dan sesuai dengan kebutuhan
+            #anakdetik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <p id="headline4">Frequently Asked Questions 🤔</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="p-3">
+          <!-- Collapse 1 -->
+          <div id="dropparent" class="row px-0 py-1 mb-3">
+            <p class="d-inline-flex m-0">
+              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apa itu detiklearning?</a>
+                <img id="arrow" src="image/down-arrow.png" alt="">
+            </p>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div id="down" class="card card-body">
+                  detikLearning adalah platform e-learning yang disediakan untuk seluruh karyawan detikcom.
+                  detiklearning menyediakan beragam kursus dan materi pembelajaran dari berbagai kategori untuk
+                  meningkatkan pengetahuan dan keterampilan #anakdetik demi perkembangan diri dan karier yang lebih
+                  baik.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collapse 2 -->
+          <div id="dropparent" class="row px-0 py-1 mb-3">
+            <p class="d-inline-flex m-0">
+              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bagaimana cara untuk membuat akun detiklearning?</a>
+                <img id="arrow" src="image/down-arrow.png" alt="">
+            </p>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div id="down" class="card card-body">
+                  Untuk membuat akun detiklearning, Kamu dapat mengklik tombol "Daftar" pada halaman beranda, lalu ikuti panduan pendaftaran dengan menggunakan alamat email detik kamu untuk mendaftar.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collapse 3 -->
+          <div id="dropparent" class="row px-0 py-1 mb-3">
+            <p class="d-inline-flex m-0">
+              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bagaimana cara untuk login ke detiklearning?</a>
+                <img id="arrow" src="image/down-arrow.png" alt="">
+            </p>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample3">
+                <div id="down" class="card card-body">
+                  Untuk login ke akun detiklearning, cukup klik tombol "Login" dan masukkan alamat email detik Kamu beserta kata sandi yang Kamu gunakan saat mendaftar.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-3">
+          <!-- Collapse 1 -->
+          <div id="dropparent" class="row px-0 py-1 mb-3">
+            <p class="d-inline-flex m-0">
+              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apakah saya bisa mengakses semua kelas di detiklearning?</a>
+                <img id="arrow" src="image/down-arrow.png" alt="">
+            </p>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample4">
+                <div id="down" class="card card-body">
+                  Ya, Kamu dapat mengakses semua kelas di detiklearning. Seluruh karyawan detik dapat mengeksplorasi berbagai kelas dan kategori sesuai minat dan preferensinya.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collapse 2 -->
+          <div id="dropparent" class="row px-0 py-1 mb-3">
+            <p class="d-inline-flex m-0">
+              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bagaimana cara mengunduh video pembelajaran di detiklearning?</a>
+                <img id="arrow" src="image/down-arrow.png" alt="">
+            </p>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample5">
+                <div id="down" class="card card-body">
+                  Saat ini, video pembelajaran di detiklearning tidak dapat diunduh. Seluruh hak cipta dari video didalam detiklearning merupakan milik detik, sehingga kamu tidak diperkenankan untuk mengunduh video learning dan mengunggak video detiklearning di media lain.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Collapse 3 -->
+          <div id="dropparent" class="row px-0 py-1 mb-3">
+            <p class="d-inline-flex m-0">
+              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apakah saya dapat mengakses detiklearning secara offline?</a>
+                <img id="arrow" src="image/down-arrow.png" alt="">
+            </p>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample6">
+                <div id="down" class="card card-body">
+                  Detiklearning saat ini hanya dapat diakses secara online, dan Anda perlu koneksi internet untuk mengaksesnya. Kami sedang mengevaluasi opsi akses offline untuk masa depan, jadi tetap pantau informasi terbaru dari kami!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-5 px-1">
+    <div class="container text-center">
+      <div class="row justify-content-center d-inline d-md-none">
+          <div class="col-12 col-lg-4 mb-4">
+              <div>
+                <img id="logofoot" src="image/logo.png" alt="">
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4">
+              <div>
+                <a href="">All Course</a>
+                <a href="">My Course</a>
+                <a href="">Dasboard</a>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4">
+              <div id="sosmed2">
+                <img class="mx-1" src="image/instagram.png" alt="">
+                <img class="mx-1" src="image/facebook.png" alt="">
+                <img class="mx-1" src="image/twitter.png" alt="">
+                <img class="mx-1" src="image/linkedin.png" alt="">
+                <img class="mx-1" src="image/youtube.png" alt="">
+              </div>
+          </div>
+      </div>
+
+      <div class="container d-none d-md-block">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-3 text-start">
+              <img id="logofoot" src="image/logo.png" alt="">
+              <div id="sosmed" class="mt-3">
+                <img class="mx-1" src="image/instagram.png" alt="">
+                <img class="mx-1" src="image/facebook.png" alt="">
+                <img class="mx-1" src="image/twitter.png" alt="">
+                <img class="mx-1" src="image/linkedin.png" alt="">
+                <img class="mx-1" src="image/youtube.png" alt="">
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-3">
+                <div class="text-end">
+                  <div>
+                    <a href="">All Course</a>
+                    <a href="">My Course</a>
+                    <a href="">Dasboard</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  </footer>
+  <div style="color: rgb(45, 134, 206); text-align: center;">
+    <span >Copyright © 2024 detikcom Learning. All rights reserved.</span>
+  </div>
+  
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -67,6 +449,5 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
 </body>
-
 
 </html>
