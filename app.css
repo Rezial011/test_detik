@@ -1,9 +1,18 @@
 #logo {
-    width: 6rem;
+    width: 8rem;
     height: auto;
-    position: absolute;
+    /* position: absolute;
     top: 21px;
-    left: 80px;
+    left: 80px; */
+}
+
+#logoparent {
+    width: max-content;
+    height: auto;
+    border: transparent;
+    /* position: absolute;
+    top: 21px;
+    left: 80px; */
 }
 
 #logo2 {
@@ -44,6 +53,13 @@ header {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
+@media(min-width : 991px) {
+    #input {
+        width: 18rem;
+    }
+}
+
+
 #an2 {
     text-decoration: none;
     font-weight: 400;
@@ -75,35 +91,10 @@ header {
     margin-right: 9rem;
 }
 
-
-
-@media (min-width : 408px) {
-    #logo {
-        width: 6rem;
-        height: auto;
-        position: absolute;
-        top: 31px;
-        left: 80px;
-    }
-}
-
-@media (min-width : 576px) {
-    #logo {
-        width: 6rem;
-        height: auto;
-        position: absolute;
-        top: 31px;
-        left: 122px;
-    }
-}
-
 @media (min-width : 602px) {
     #logo {
         width: 10rem;
         height: auto;
-        position: absolute;
-        top: 32px;
-        left: 150px;
     }
 }
 
@@ -121,7 +112,6 @@ header {
 }
 
 #karo div {
-
     border-radius: 30px;
 }
 
@@ -314,7 +304,7 @@ header {
 }
 
 #bagian3 {
-    padding: 2rem 0 1rem 0;
+    padding: 2rem 0 2rem 0;
 }
 
 #p7 {
@@ -454,12 +444,17 @@ header {
 }
 
 #arrow {
-    width: auto;
-    height: 25px;
     position: relative;
     top: 5px;
-    left: 0px;
-    color: rgba(0, 0, 0, 0.137);
+    left: 0;
+    width: auto;
+    height: 25px;
+    opacity: 30%;
+    transition: 0.3s ease;
+}
+
+.togel.active #arrow{
+    transform: rotate(-180deg);
 }
 
 #headline4 {
@@ -481,10 +476,14 @@ footer {
     background-color: white;
 }
 
-footer a {
+#link a {
     text-decoration: none;
     color: #204499;
     margin: 0 1rem;
+}
+
+#sosmed a, #sosmed2 a {
+    text-decoration: none;
 }
 
 #sosmed img {

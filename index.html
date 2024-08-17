@@ -15,16 +15,18 @@
 <body>
   <header>
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-3 px-5 shadow p-2 mb-5 rounded">
-      <div class="container-fluid px-0 px-sm-5">
-        <button id="burger" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      <div class="container-fluid px-0 px-sm-2">
+    
+        <div id="logoparent" href="#" class="navbar-toggler mx-1" data-bs-toggle="collapse">
+        <button id="burger" class="navbar-toggler mx-0" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-
         </button>
-        <a class="d-inline d-lg-none" href="#">
-          <img id="logo" src="image/logo.png" alt="">
-        </a>
+
+          <img class="d-inline d-lg-none" id="logo" src="image/logo.png" alt="">
+        </div>
+
         <a class="d-none d-lg-inline navbar-brand" href="#">
           <img id="logo2" src="image/logo.png" alt="">
         </a>
@@ -44,8 +46,8 @@
                 <img src="image/search-form.svg" alt="">
               </span>
             </label>
-            <input id="input" class="form-control me-2 mx-2 rounded-pill" type="search"
-              placeholder="         Cari Course" aria-label="Search">
+            <input id="input" class="form-control me-2 mx-2 ps-5 rounded-pill" type="search"
+              placeholder="Cari Course" aria-label="Search">
           </form>
 
           <p class="d-lg-none" id="all"><a id="an2" class="d-inline" href="#">All Course</a></p>
@@ -110,27 +112,27 @@
 
       <!-- Div kedua -->
       <div class="col-md-7">
-        <div id="carouselExampleIndicators" class="carousel slide p-4 text-white rounded" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators2" class="carousel slide p-4 text-white rounded" data-bs-ride="carousel">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
               aria-label="Slide 2"></button>
           </div>
           <div id="karo2inner" class="carousel-inner">
-            <div class="carousel-item active">
+            <a href="#karo2" class="carousel-item active">
               <img src="image/seo-writing.jpg" class="d-block w-100" alt="Gambar 2">
-            </div>
-            <div class="carousel-item">
+            </a>
+            <a href="#karo2" class="carousel-item">
               <img src="image/potret-jutnalistik.jpg" class="d-block w-100" alt="Gambar 3">
-            </div>
+            </a>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
@@ -147,21 +149,21 @@
 
       <div id="roll">
         <div id="karosel">
-          <div id="konten">
+          <a href="#kategori" id="konten">
             <img src="image/business.png" alt="">
-          </div>
-          <div id="konten">
+          </a>
+          <a href="#kategori" id="konten">
             <img src="image/content.png" alt="">
-          </div>
-          <div id="konten">
+          </a>
+          <a href="#kategori" id="konten">
             <img src="image/corporate.png" alt="">
-          </div>
-          <div id="konten">
+          </a>
+          <a href="#kategori" id="konten">
             <img src="image/product.png" alt="">
-          </div>
-          <div id="konten">
+          </a>
+          <a href="#kategori" id="konten">
             <img src="image/self-development.png" alt="">
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -259,11 +261,11 @@
   </section>
 
   <section id="yt" class="p-5">
-    <div class="row p-5">
+    <div class="row p-0">
       <div class="col-lg-6">
-        <div class="p-3 image-container">
+        <a href="#yt" class="p-3 image-container">
           <img src="image/fix foto dan jutnalistik (1).png" alt="Placeholder Image">
-        </div>
+        </a>
       </div>
       <div class="col-lg-6">
         <div class="p-3">
@@ -283,12 +285,14 @@
     <p id="headline4">Frequently Asked Questions 🤔</p>
     <div class="row">
       <div class="col-md-6">
-        <div class="p-3">
+        <div class="p-0 p-md-3">
           <!-- Collapse 1 -->
-          <div id="dropparent" class="row px-0 py-1 mb-3">
-            <p class="d-inline-flex m-0">
-              <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apa itu detiklearning?</a>
-                <img id="arrow" src="image/down-arrow.png" alt="">
+          <div id="dropparent" class="row px-0 py-1 mb-3 ">
+            <p class="d-inline-flex m-0 togel">
+              <a id="drop" class="btn btn-primary " data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apa itu detiklearning?</a>
+                <a id="arrowdrop" class="" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                  <img id="arrow" src="image/down-arrow.png" alt="">
+                </a>
             </p>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -304,9 +308,11 @@
 
           <!-- Collapse 2 -->
           <div id="dropparent" class="row px-0 py-1 mb-3">
-            <p class="d-inline-flex m-0">
+            <p class="d-inline-flex m-0 togel">
               <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bagaimana cara untuk membuat akun detiklearning?</a>
+              <a id="arrowdrop" class="" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                 <img id="arrow" src="image/down-arrow.png" alt="">
+              </a>
             </p>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -318,10 +324,12 @@
           </div>
 
           <!-- Collapse 3 -->
-          <div id="dropparent" class="row px-0 py-1 mb-3">
-            <p class="d-inline-flex m-0">
+          <div id="dropparent" class="row px-0 py-1 mb-3 ">
+            <p class="d-inline-flex m-0 togel">
               <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bagaimana cara untuk login ke detiklearning?</a>
+              <a id="arrowdrop" class="" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                 <img id="arrow" src="image/down-arrow.png" alt="">
+              </a>
             </p>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample3">
@@ -335,12 +343,14 @@
       </div>
 
       <div class="col-md-6">
-        <div class="p-3">
+        <div class="p-0 p-md-3">
           <!-- Collapse 1 -->
-          <div id="dropparent" class="row px-0 py-1 mb-3">
-            <p class="d-inline-flex m-0">
+          <div id="dropparent" class="row px-0 py-1 mb-3 ">
+            <p class="d-inline-flex m-0 togel">
               <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apakah saya bisa mengakses semua kelas di detiklearning?</a>
+              <a id="arrowdrop" class="" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                 <img id="arrow" src="image/down-arrow.png" alt="">
+              </a>
             </p>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample4">
@@ -352,10 +362,12 @@
           </div>
 
           <!-- Collapse 2 -->
-          <div id="dropparent" class="row px-0 py-1 mb-3">
-            <p class="d-inline-flex m-0">
+          <div id="dropparent" class="row px-0 py-1 mb-3 ">
+            <p class="d-inline-flex m-0 togel">
               <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bagaimana cara mengunduh video pembelajaran di detiklearning?</a>
+              <a id="arrowdrop" class="" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                 <img id="arrow" src="image/down-arrow.png" alt="">
+              </a>
             </p>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample5">
@@ -367,10 +379,12 @@
           </div>
 
           <!-- Collapse 3 -->
-          <div id="dropparent" class="row px-0 py-1 mb-3">
-            <p class="d-inline-flex m-0">
+          <div id="dropparent" class="row px-0 py-1 mb-3 ">
+            <p class="d-inline-flex m-0 togel">
               <a id="drop" class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Apakah saya dapat mengakses detiklearning secara offline?</a>
+              <a id="arrowdrop" class="" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
                 <img id="arrow" src="image/down-arrow.png" alt="">
+              </a>
             </p>
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample6">
@@ -394,19 +408,29 @@
               </div>
           </div>
           <div class="col-12 col-lg-4 mb-4">
-              <div>
-                <a href="">All Course</a>
-                <a href="">My Course</a>
-                <a href="">Dasboard</a>
+              <div id="link">
+                <a href="#logofoot">All Course</a>
+                <a href="#logofoot">My Course</a>
+                <a href="#logofoot">Dasboard</a>
               </div>
           </div>
           <div class="col-12 col-lg-4 mb-4">
               <div id="sosmed2">
-                <img class="mx-1" src="image/instagram.png" alt="">
-                <img class="mx-1" src="image/facebook.png" alt="">
-                <img class="mx-1" src="image/twitter.png" alt="">
-                <img class="mx-1" src="image/linkedin.png" alt="">
-                <img class="mx-1" src="image/youtube.png" alt="">
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/instagram.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/facebook.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/twitter.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/linkedin.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/youtube.png" alt="">
+                </a>
               </div>
           </div>
       </div>
@@ -416,20 +440,30 @@
             <div class="col-12 col-md-6 mb-3 text-start">
               <img id="logofoot" src="image/logo.png" alt="">
               <div id="sosmed" class="mt-3">
-                <img class="mx-1" src="image/instagram.png" alt="">
-                <img class="mx-1" src="image/facebook.png" alt="">
-                <img class="mx-1" src="image/twitter.png" alt="">
-                <img class="mx-1" src="image/linkedin.png" alt="">
-                <img class="mx-1" src="image/youtube.png" alt="">
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/instagram.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/facebook.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/twitter.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/linkedin.png" alt="">
+                </a>
+                <a href="#logofoot">
+                  <img class="mx-1" src="image/youtube.png" alt="">
+                </a>
               </div>
             </div>
 
             <div class="col-12 col-md-6 mb-3">
                 <div class="text-end">
-                  <div>
-                    <a href="">All Course</a>
-                    <a href="">My Course</a>
-                    <a href="">Dasboard</a>
+                  <div id="link">
+                    <a href="#logofoot">All Course</a>
+                    <a href="#logofoot">My Course</a>
+                    <a href="#logofoot">Dasboard</a>
                   </div>
                 </div>
             </div>
@@ -437,6 +471,7 @@
     </div>
   </div>
   </footer>
+  
   <div style="color: rgb(45, 134, 206); text-align: center;">
     <span >Copyright © 2024 detikcom Learning. All rights reserved.</span>
   </div>
@@ -448,6 +483,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-</body>
 
+  <script>
+    const menutoggle = document.querySelectorAll('.togel')
+    for (let i = 0; i < 7; i++) {
+      menutoggle[i].addEventListener('click', () => {
+      menutoggle[i].classList.toggle('active')
+    })
+    }
+  </script>
+
+</body>
 </html>
